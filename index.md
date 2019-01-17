@@ -5,4 +5,4 @@
 layout: page
 ---
 
-Velkommen til Teig Digital AS
+Velkommen til Teig Digital AS. Vi er best, ingen protest.
