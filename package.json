@@ -1,0 +1,31 @@
+{
+  "name": "teigdigital.github.io",
+  "version": "1.0.0",
+  "description": "Website for Teig AS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt",
+    "generate": "nuxt generate",
+    "now:build": "nuxt generate",
+    "gh:deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teigdigital/teigdigital.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/teigdigital/teigdigital.github.io/issues"
+  },
+  "homepage": "https://github.com/teigdigital/teigdigital.github.io#readme",
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^0.1.2",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.4.3",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^7.1.0"
+  }
+}
