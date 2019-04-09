@@ -6,9 +6,9 @@
     <transition name="fade">
       <div class="links" v-if="showNavbar">
         <nuxt-link to="/"><i class="fas fa-home"></i></nuxt-link>
-        <nuxt-link to="/om-oss">Om oss</nuxt-link>
-        <!-- <nuxt-link to="/what">Hva</nuxt-link> -->
-        <nuxt-link to="/kontakt-oss">Kontakt</nuxt-link>
+        <nuxt-link to="/om">Om oss</nuxt-link>
+        <nuxt-link to="/Nyheter">Nyheter</nuxt-link>
+        <nuxt-link to="/kontakt">Kontakt</nuxt-link>
       </div>
     </transition>
   </nav>

@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>Ta kontakt!</h1>
-    <p>Vi sitter på PARK, og vil gjerne snakke med deg!</p>
+    <p>Organisasjonsnummer: 992 977 469</p>
 
     <a class="phone" href="tel:+4795121144">+47 951 21 144</a><br>
     <a class="email" href="mailto:post@teigdigital.no">post@teigdigital.no</a>
-    <p class="park">PARK gründer- og næringshus</p>
-    <p class="park-address">Grønnegata 85,<br>2317 Hamar</p>
+    <p class="park">Adresse</p>
+    <p class="park-address">Teig Digital AS<br>co/Tor Egil Refsahl<br>Holsetgata 62,<br>2318 Hamar</p>
   </div>
 </template>
 
