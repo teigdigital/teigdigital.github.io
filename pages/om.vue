@@ -7,12 +7,6 @@
       <p>Seniorutvikler og arkitekt</p>
       <p><a class="phone" href="tel:+4795121144">+47 951 21 144</a></p>
       <p><a class="email" href="mailto:toregil.refsahl@teigdigital.no">toregil.refsahl<br>@teigdigital.no</a></p>
-
-      <div class="image"><img src="https://secure.meetupstatic.com/photos/member/c/2/8/0/highres_167869792.jpeg"></div>
-      <p class="name">Ingrid Sorgendal</p>
-      <p>Interaksjonsdesigner</p>
-      <p><a class="phone" href="tel:+4795121144">+47 993 89 575</a></p>
-      <p><a class="email" href="mailto:ingrid.sorgendal@teigdigital.no">ingrid.sorgendal<br>@teigdigital.no</a></p>       
     </div>
   </div>
 </template>
