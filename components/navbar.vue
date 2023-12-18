@@ -7,28 +7,24 @@
       <div class="links" v-if="showNavbar">
         <nuxt-link to="/"><i class="fas fa-home"></i></nuxt-link>
         <nuxt-link to="/om">Om oss</nuxt-link>
-        <nuxt-link to="/Nyheter">Nyheter</nuxt-link>
+        <nuxt-link to="/nyheter">Nyheter</nuxt-link>
         <nuxt-link to="/kontakt">Kontakt</nuxt-link>
       </div>
     </transition>
   </nav>
 </template>
 
-<script>
-  export default {
-    data() {
-      return {
-        showNavbar: false
+<script setup lang="ts">
+  const showNavbar = useState('showNavbar', () => false)
+
+  const route = useRoute()
+  watch(
+      () => route.path,
+      (newValue, oldValue) => {
+        showNavbar.value = false
       }
-    },
-    watch: {
-    '$route': function() {
-      setTimeout(() => {
-        this.showNavbar = false;
-      }, 100);
-      },
-    }
-  }
+  )
+
 </script>
 
 <style scoped lang="scss">
@@ -37,7 +33,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans',serif;
   }
   a:hover {
     color: darken($blue, 10%);
