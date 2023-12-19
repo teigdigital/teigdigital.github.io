@@ -1,0 +1,1 @@
+import{_ as r,c as t,o as s,a as e,d as o}from"./entry.f3125a91.js";const a={},i=e("h1",null,"Eika Forsikring",-1),n=e("p",null,[o("Tor Egil bistår Eika Forsikring på Hamar og i Oslo som arkitekt og utvikler."),e("br"),o("Periode: mai 2019 - desember 2023.")],-1),c=[i,n];function _(l,d){return s(),t("div",null,c)}const m=r(a,[["render",_]]);export{m as default};
