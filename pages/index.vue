@@ -1,29 +1,21 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <NuxtLayout>
     <div>
-      <p>I vår <span class="teig">teig</span> dyrker vi digital spesialkompetanse innen design og teknologi. Vi er
-        konsulenter, men tror på vekselbruk og utvikler egne produkter ved anledning.</p>
-      <p>Dessuten tror vi på samarbeid og sterke fagmiljøer på tvers av foretak og institusjoner. Derfor deler vi så mye
-        som mulig av det vi kan, gjør og lærer.</p>
+      <p>I vår <span class="teig">teig</span> dyrker vi de beste løsningene for kundene våre.</p>
+      <p>Vi deler gjerne erfaringene våre med fellesskapet. Noe av de vi har holdt på med er:</p>
+      <ul>
+        <li>Språk: Java, <span class="teig">Kotlin</span>, Typescript, Python, Go-lang og C#</li>
+        <li>Frontend: <span class="teig">React</span>, Angualar, Vue, Nuxt</li>
+        <li>Platform: Windows, RedHat, CentOS, Ubuntu, Raspbian, IMBi(iSeries), <span class="teig">OSx</span></li>
+        <li>Applikasjonsplattform: <span class="teig">Jetty</span>, Tomcat, IIS, Apache</li>
+        <li>Database: Oracle, <span class="teig">MSSQL</span>, PostgreSQL, MySQL, CosmosDB</li>
+        <li>Teori: DDD, TDD, <span class="teig">Certified TOGAF, Certified Scrum Master</span>, Lean startup, Kanban, Archimate (UML)</li>
+        <li>Azure: <span class="teig">ServiceBus</span>, EventHub, ActiveDirectory, App Service, App Functions, Storage, SQL Database, Cognitive Services, Application Insights, CosmosDB, Azure DevOps</li>
+        <li>Støttesystemer: git, subversion, Jenkins, Redis, Solr</li>
+      </ul>
     </div>
   </NuxtLayout>
 </template>
-
-<style scoped lang="scss">
-p {
-  font-size: calc(20px + .3vw);
-
-  line-height: 1.2;
-  @media (min-width: 768px) {
-    font-size: calc(32px + .3vw);
-  }
-}
-
-.teig {
-  color: $brown;
-  font-weight: 900;
-}
-</style>
-
-<script setup lang="ts">
-</script>

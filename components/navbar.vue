@@ -7,7 +7,7 @@
       <div class="links" v-if="showNavbar">
         <nuxt-link to="/"><i class="fas fa-home"></i></nuxt-link>
         <nuxt-link to="/om">Om oss</nuxt-link>
-        <nuxt-link to="/nyheter">Nyheter</nuxt-link>
+        <nuxt-link to="/kunder">Kunder</nuxt-link>
         <nuxt-link to="/kontakt">Kontakt</nuxt-link>
       </div>
     </transition>

@@ -13,11 +13,6 @@ const logoClass = useRoute().name === 'index' ? 'big' : ''
 <style lang="scss">
 @use "sass:math";
 
-body {
-  font-family: 'Frank Ruhl Libre', serif;
-  background-color: $light-yellow;
-}
-
 @function strip-unit($value) {
   @return math.div($value, $value * 0 + 1);
 }
@@ -50,9 +45,11 @@ $max_font: 26px;
 
 body {
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  font-family: 'Frank Ruhl Libre', serif;
+  background-color: $light-yellow;
 }
 
-h1 {
+h1,h2,h3,h4 {
   font-family: 'Josefin Sans', serif;
 }
 
@@ -93,6 +90,17 @@ h1 {
   height: 80px;
   background: #a84909;
   border-radius: 50%;
+}
+
+p {
+  @media (min-width: 768px) {
+    font-size: calc(22px + .3vw);
+  }
+}
+
+.teig {
+  color: $brown;
+  font-weight: 900;
 }
 </style>
 
